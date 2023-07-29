@@ -13,6 +13,17 @@
 		027DE8B22A720008001C731D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 027DE8B02A720008001C731D /* Main.storyboard */; };
 		027DE8B42A720009001C731D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 027DE8B32A720009001C731D /* Assets.xcassets */; };
 		027DE8B72A720009001C731D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 027DE8B52A720009001C731D /* LaunchScreen.storyboard */; };
+		027DE8BF2A720FFA001C731D /* TodoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027DE8BE2A720FFA001C731D /* TodoTableViewController.swift */; };
+		027DE8C32A7232F3001C731D /* StudyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027DE8C22A7232F3001C731D /* StudyTableViewController.swift */; };
+		02F4CDD42A7249DE001018DF /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F4CDD32A7249DE001018DF /* Extension.swift */; };
+		02F4CDD62A735054001018DF /* CustomTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F4CDD52A735054001018DF /* CustomTableViewController.swift */; };
+		02F4CDD82A73528C001018DF /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F4CDD72A73528C001018DF /* CustomTableViewCell.swift */; };
+		02F4CDDA2A7389DA001018DF /* ToDo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F4CDD92A7389DA001018DF /* ToDo.swift */; };
+		02F4CDDC2A738A21001018DF /* ToDoInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F4CDDB2A738A21001018DF /* ToDoInformation.swift */; };
+		02F4CDDE2A7568BD001018DF /* MovieTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F4CDDD2A7568BD001018DF /* MovieTableViewController.swift */; };
+		02F4CDE02A756A33001018DF /* MovieInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F4CDDF2A756A33001018DF /* MovieInformation.swift */; };
+		02F4CDE22A756A62001018DF /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F4CDE12A756A62001018DF /* Movie.swift */; };
+		02F4CDE52A756C25001018DF /* MovieTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F4CDE42A756C25001018DF /* MovieTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +35,17 @@
 		027DE8B32A720009001C731D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		027DE8B62A720009001C731D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		027DE8B82A720009001C731D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		027DE8BE2A720FFA001C731D /* TodoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoTableViewController.swift; sourceTree = "<group>"; };
+		027DE8C22A7232F3001C731D /* StudyTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyTableViewController.swift; sourceTree = "<group>"; };
+		02F4CDD32A7249DE001018DF /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		02F4CDD52A735054001018DF /* CustomTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewController.swift; sourceTree = "<group>"; };
+		02F4CDD72A73528C001018DF /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		02F4CDD92A7389DA001018DF /* ToDo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDo.swift; sourceTree = "<group>"; };
+		02F4CDDB2A738A21001018DF /* ToDoInformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoInformation.swift; sourceTree = "<group>"; };
+		02F4CDDD2A7568BD001018DF /* MovieTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTableViewController.swift; sourceTree = "<group>"; };
+		02F4CDDF2A756A33001018DF /* MovieInformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieInformation.swift; sourceTree = "<group>"; };
+		02F4CDE12A756A62001018DF /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		02F4CDE42A756C25001018DF /* MovieTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +78,34 @@
 		027DE8A92A720008001C731D /* SeSAC tableView */ = {
 			isa = PBXGroup;
 			children = (
+				02F4CDD32A7249DE001018DF /* Extension.swift */,
 				027DE8AA2A720008001C731D /* AppDelegate.swift */,
 				027DE8AC2A720008001C731D /* SceneDelegate.swift */,
 				027DE8AE2A720008001C731D /* ViewController.swift */,
-				027DE8B02A720008001C731D /* Main.storyboard */,
+				027DE8BE2A720FFA001C731D /* TodoTableViewController.swift */,
+				027DE8C22A7232F3001C731D /* StudyTableViewController.swift */,
+				02F4CDD52A735054001018DF /* CustomTableViewController.swift */,
+				02F4CDD72A73528C001018DF /* CustomTableViewCell.swift */,
+				02F4CDD92A7389DA001018DF /* ToDo.swift */,
+				02F4CDDB2A738A21001018DF /* ToDoInformation.swift */,
+				02F4CDE32A756A7C001018DF /* Movie Assignment */,
 				027DE8B32A720009001C731D /* Assets.xcassets */,
 				027DE8B52A720009001C731D /* LaunchScreen.storyboard */,
 				027DE8B82A720009001C731D /* Info.plist */,
 			);
 			path = "SeSAC tableView";
+			sourceTree = "<group>";
+		};
+		02F4CDE32A756A7C001018DF /* Movie Assignment */ = {
+			isa = PBXGroup;
+			children = (
+				027DE8B02A720008001C731D /* Main.storyboard */,
+				02F4CDDD2A7568BD001018DF /* MovieTableViewController.swift */,
+				02F4CDE42A756C25001018DF /* MovieTableViewCell.swift */,
+				02F4CDE12A756A62001018DF /* Movie.swift */,
+				02F4CDDF2A756A33001018DF /* MovieInformation.swift */,
+			);
+			path = "Movie Assignment";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,8 +179,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02F4CDDA2A7389DA001018DF /* ToDo.swift in Sources */,
 				027DE8AF2A720008001C731D /* ViewController.swift in Sources */,
+				02F4CDE52A756C25001018DF /* MovieTableViewCell.swift in Sources */,
+				02F4CDDC2A738A21001018DF /* ToDoInformation.swift in Sources */,
+				027DE8BF2A720FFA001C731D /* TodoTableViewController.swift in Sources */,
+				02F4CDD82A73528C001018DF /* CustomTableViewCell.swift in Sources */,
+				02F4CDDE2A7568BD001018DF /* MovieTableViewController.swift in Sources */,
+				027DE8C32A7232F3001C731D /* StudyTableViewController.swift in Sources */,
+				02F4CDE02A756A33001018DF /* MovieInformation.swift in Sources */,
+				02F4CDE22A756A62001018DF /* Movie.swift in Sources */,
+				02F4CDD42A7249DE001018DF /* Extension.swift in Sources */,
 				027DE8AB2A720008001C731D /* AppDelegate.swift in Sources */,
+				02F4CDD62A735054001018DF /* CustomTableViewController.swift in Sources */,
 				027DE8AD2A720008001C731D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
