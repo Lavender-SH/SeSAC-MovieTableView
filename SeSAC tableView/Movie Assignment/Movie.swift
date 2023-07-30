@@ -9,10 +9,10 @@ import Foundation
 
 
 struct Movie {
+    
     var title: String
     var releaseDate: String
     var runtime: String
     var overview: String
     var rate: String
-    
 }
